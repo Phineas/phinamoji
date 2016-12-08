@@ -2,9 +2,9 @@
 Simple NodeJS script to change your Twitter name's emoji every few seconds
 
 ## Requirements
-• NodeJS 5+
-• Git
-• NPM
+* NodeJS 5+
+* Git
+* NPM
 
 ## Setup
 1. Clone the project: `git clone https://github.com/Phineas/phinamoji.git` into the directory you wish
