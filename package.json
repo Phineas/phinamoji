@@ -1,0 +1,25 @@
+{
+  "name": "phinamoji",
+  "version": "1.0.1",
+  "description": "Simple NodeJS script to change your Twitter name's emoji every few seconds",
+  "main": "namoji.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Phineas/phinamoji.git"
+  },
+  "keywords": [
+    "twitter",
+    "emoji",
+    "name",
+    "changer"
+  ],
+  "author": "Phineas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Phineas/phinamoji/issues"
+  },
+  "homepage": "https://github.com/Phineas/phinamoji#readme"
+}
