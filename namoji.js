@@ -18,6 +18,6 @@ function updateEmoji() {
     console.log("Changed name to: " + originalScreenName + ' ' + randomEmoji); //Remove this if you wish, this is just for debugging
   });
 }
-setInterval(updateEmoji, 10 * 1000);
+setInterval(updateEmoji, 60 * 1000);
 
 updateEmoji();
