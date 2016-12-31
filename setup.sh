@@ -56,4 +56,10 @@ read accesssecret
 $scmd -i 's/YourAccessTokenSecret/'"$accesssecret"'/g' namoji.js
 echo "Set access_token_secret to $accesssecret"
 
+echo -n "Twitter Name> "
+read twname
+$scmd -i 's/Phineas/'"$twname"'/g' namoji.js
+echo "Set twitter_name to $twname"
+
+
 echo "All set up! You can now start by using node namoji.js"
