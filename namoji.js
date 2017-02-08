@@ -8,7 +8,7 @@ var client = new Twitter({
 });
 
 var originalScreenName = 'Phineas';
-var emojiTypes = Array('🔮', '🌊', '💠', '🔷',  '☄',  '💧', '❄️'); // Add your emojis to the array here
+var emojiTypes = ['🔮', '🌊', '💠', '🔷',  '☄',  '💧', '❄️']; // Add your emojis to the array here
 
 function updateEmoji() {
   var randomEmoji = emojiTypes[Math.floor(Math.random()*emojiTypes.length)];
