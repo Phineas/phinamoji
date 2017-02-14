@@ -1,4 +1,4 @@
-var Twitter = require('twitter');
+const Twitter = require('twitter');
 
 var client = new Twitter({
   consumer_key: 'YourConsumerKey',
@@ -7,8 +7,8 @@ var client = new Twitter({
   access_token_secret: 'YourAccessTokenSecret'
 });
 
-var originalScreenName = 'Phineas';
-var emojiTypes = ['🔮', '🌊', '💠', '🔷',  '☄',  '💧', '❄️']; // Add your emojis to the array here
+var originalScreenName = 'Phineas',
+    emojiTypes = ['🔮', '🌊', '💠', '🔷',  '☄',  '💧', '❄️']; // Add your emojis to the array here
 
 function updateEmoji() {
   var randomEmoji = emojiTypes[Math.floor(Math.random()*emojiTypes.length)];
